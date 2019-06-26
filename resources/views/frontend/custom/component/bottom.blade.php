@@ -267,7 +267,7 @@
                 <div class="bm-tel hidden-xs">
                     <img src="{{ url('/templates/moban2030/assets/images/tel.png') }}" alt="">
 {{--                    <a href="tel:{{ config('company.info.telephone') }}" style="color:#fff;">{{ config('company.info.telephone') }}</a>--}}
-                    <a href="tel:{{ config('company.info.telephone') }}" style="color:#fff;">186-2151-9928</a>
+                    <a href="tel:186-2151-9928" style="color:#fff;">186-2151-9928</a>
                 </div>
             </div>
 
@@ -294,7 +294,8 @@
                     <input name="Submit2" value="清空" class="submit_quxiao hidden-xs" type="reset"> &nbsp;
                     <div class="bm-tel visible-xs" style="float:right;">
                         <img src="{{ url('/templates/moban2030/assets/images/tel.png') }}" alt="">
-                        <a href="tel:{{ config('company.info.telephone') }}" style="color:#fff;">{{ config('company.info.telephone') }}</a>
+{{--                        <a href="tel:{{ config('company.info.telephone') }}" style="color:#fff;">{{ config('company.info.telephone') }}</a>--}}
+                        <a href="tel:186-2151-9928" style="color:#fff;">186-2151-9928</a>
                     </div>
                 </div>
 
