@@ -1,4 +1,4 @@
-@extends('frontend.layout.layout')
+@extends('frontend.custom.layout.layout')
 
 
 {{--html.head--}}
@@ -18,7 +18,7 @@
 
 {{--footer--}}
 @section('component-footer')
-    {{--@include('frontend.component.footer')--}}
+    @include('frontend.custom.component.footer')
 @endsection
 
 
@@ -27,7 +27,7 @@
 {{--custom-content--}}
 @section('custom-content')
 
-    <div class="center2" style="text-align: center">
+    <div class="center2" style="text-align: center;">
         <img src="/custom/yll/img/1.jpg"/>
         <img src="/custom/yll/img/2.jpg"/>
         <img src="/custom/yll/img/3.jpg"/>
@@ -76,7 +76,7 @@
         <img src="/custom/yll/img/46.jpg"/>
         <img src="/custom/yll/img/47.jpg"/>
         <img src="/custom/yll/img/48.jpg"/>
-        <img src="/custom/yll/img/49.jpg"/>
+        {{--<img src="/custom/yll/img/49.jpg"/>--}}
         <img src="/custom/yll/img/50.jpg"/>
 
 
@@ -84,12 +84,9 @@
     </div>
 
 
-    <div class="foot">版权所有@上海盛贝房地产营销策划有限公司(2018)    备案号:沪ICP备18041650号</div>
+    {{--<div class="foot">版权所有@上海盛贝房地产营销策划有限公司(2018)    备案号:沪ICP备18041650号</div>--}}
 
     <div class="hj"></div>
     <div class="hj2"></div>
-    <div  class="os">
-        <a href="tel:" ><img src="/custom/yll/img/phone.png"/></a>
-    </div>
 
 @endsection
