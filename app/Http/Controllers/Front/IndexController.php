@@ -86,4 +86,14 @@ class IndexController extends Controller
 
 
 
+
+
+    // 开盘提醒
+    public function view_custom_yunluli()
+    {
+        return $this->repo->view_custom_yunluli(request()->all());
+    }
+
+
+
 }

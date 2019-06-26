@@ -374,4 +374,15 @@ class IndexRepository {
 
 
 
+
+
+    // root
+    public function view_custom_yunluli()
+    {
+        $html = view('frontend.entrance.custom.yunluli')->with([])->__toString();
+        return $html;
+    }
+
+
+
 }

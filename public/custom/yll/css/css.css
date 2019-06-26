@@ -1,0 +1,40 @@
+body,html{ font-size:14px;    font-family: arial, "Hiragino Sans GB", "Microsoft Yahei", 微软雅黑, 宋体, Tahoma, Arial, Helvetica, STHeiti;-webkit-tap-highlight-color:transparent;}
+body,html{width: 100%;height: 100%;;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {margin: 0;padding: 0;}
+a {text-decoration: none;-webkit-tap-highlight-color:transparent;}
+img {border: 0; margin: 0px; padding: 0px;display: block;}
+ol, ul {list-style: none;}
+/*间隙层结�?*/
+input[type="button"], input[type="submit"], input{-webkit-appearance: none;font-family:"Microsoft Yahei";  }
+input,textarea{ outline:none;font-family:"Microsoft Yahei"; border: 0;}
+input[type="button"], input[type="submit"]{ cursor: pointer;border: 0;}
+
+.clear{ clear:both;}
+.center{width: 1200px;margin: 0 auto;}
+.nav{font-size: 0;padding: 20px 0;text-align: right;}
+.nav p{float: left;font-size: 30px;line-height: 45px;color: #444;}
+.nav li{display: inline-block;font-size: 16px;padding: 12px 20px; border: 1px solid #666;border-radius: 5px; margin-left: 20px;}
+.nav li a{color: #666;}
+.nav li.on{border: 1px solid #0a4c26;}
+.nav li.on a{color: #0a4c26;}
+.rong{border: 1px solid #0a4c26;background: #fffde4;padding: 40px 0;}
+.rong img{display: block;margin: 0 auto;}
+.foot{text-align: center;height: 60px; line-height: 60px;}
+
+.biao{
+    width: 100%;
+    height: 100px;padding: 15px 0;
+    position: fixed;
+    bottom: 0px;
+    _position: relative;
+    z-index: 9999;
+    background: rgba(0,0,0,.7);
+}
+.biao p{float: left;line-height: 110px;color: #fff;font-size: 25px;}
+.biao input{width: 282px;height: 50px;float: left;border: 0;margin-left: 10px;text-indent: 10px;outline: none;margin-top: 34px;     border-radius: 1rem;    font-size: 18px;}
+.biao .sub{width: 84px;height: 84px; float: left;margin-left: 10px;background: url(../img/1.png) center;margin-top: 15px;border: 0;outline: none; cursor: pointer;}
+
+
+.biao1{float: left;width: 320px;}
+.biao2{float: left;width: 350px;}
+.biao2 p{}

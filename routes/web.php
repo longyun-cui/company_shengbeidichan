@@ -62,6 +62,13 @@ Route::group(['namespace' => 'Front'], function () {
     Route::post('message/grab/kp', $controller.'@message_grab_kp');
 
 
+
+
+    // 用户自定义页面
+    Route::get('/custom/yunluli', $controller.'@view_custom_yunluli');
+
+
+
 });
 
 
