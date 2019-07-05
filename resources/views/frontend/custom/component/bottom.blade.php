@@ -267,7 +267,7 @@
                 <div class="bm-tel hidden-xs">
                     <img src="{{ url('/templates/moban2030/assets/images/tel.png') }}" alt="">
 {{--                    <a href="tel:{{ config('company.info.telephone') }}" style="color:#fff;">{{ config('company.info.telephone') }}</a>--}}
-                    <a href="tel:186-2151-9928" style="color:#fff;">186-2151-9928</a>
+                    <a href="tel:400-1883-995" style="color:#fff;">400-1883-995</a>
                 </div>
             </div>
 
@@ -295,7 +295,7 @@
                     <div class="bm-tel visible-xs" style="float:right;">
                         <img src="{{ url('/templates/moban2030/assets/images/tel.png') }}" alt="">
 {{--                        <a href="tel:{{ config('company.info.telephone') }}" style="color:#fff;">{{ config('company.info.telephone') }}</a>--}}
-                        <a href="tel:186-2151-9928" style="color:#fff;">186-2151-9928</a>
+                        <a href="tel:400-1883-995" style="color:#fff;">400-1883-995</a>
                     </div>
                 </div>
 
