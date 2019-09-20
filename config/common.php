@@ -12,9 +12,9 @@
             ],
 
             'online' => [
-                'root' => 'http://shxmyj.com',
-                'www' => 'http://www.shxmyj.com',
-                'cdn' => 'http://cdn.shxmyj.com',
+                'root' => 'http://shxmyej.com',
+                'www' => 'http://www.shxmej.com',
+                'cdn' => 'http://cdn.shxmej.com',
             ],
 
             'front' => [
